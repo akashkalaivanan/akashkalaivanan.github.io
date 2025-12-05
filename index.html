@@ -1,50 +1,25 @@
 <!DOCTYPE html>
 <!-- saved from url=(0046)file:///C:/Users/dell/Music/pff/AKASH%20K.html -->
 <html data-theme="light" style="--100vh: 100vh; color-scheme: light;"><head>
+<!-- Mobile scaling: keep the same design, just shrink to fit small screens -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
-  /* Make the exported Gamma document behave better on mobiles & tablets */
   @media (max-width: 1024px) {
-    html,
-    body {
-      width: 100%;
+    html, body {
       margin: 0;
       padding: 0;
       overflow-x: hidden;
     }
 
-    /* Let the main wrapper stretch instead of fixing everything to center */
-    .doc-content-wrapper.css-ttlsbx {
-      align-items: stretch;
-      width: 100%;
-    }
-
-    /* Make the document content use full width on small screens */
-    .document-content.is-doc-mode.css-6s09y6 {
-      width: 100% !important;
-      max-width: 100% !important;
-      padding-left: 12px;
-      padding-right: 12px;
-      box-sizing: border-box;
-    }
-
-    /* Ensure the main card fills the width instead of staying like a fixed slide */
-    .card-wrapper.card-expanded.css-p5te4r,
-    .card-wrapper.card-expanded.css-p5te4r .card-body.css-1ujcnyd {
-      width: 100% !important;
-      max-width: 100% !important;
-      box-sizing: border-box;
-    }
-
-    /* Make images / svg scale properly instead of overflowing */
-    img,
-    svg,
-    video,
-    canvas {
-      max-width: 100%;
-      height: auto !important;
+    /* Scale the entire desktop design as a single unit */
+    body {
+      width: 1024px;
+      transform-origin: top left;
+      transform: scale(calc(100vw / 1024));
     }
   }
 </style>
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width" data-next-head=""><title data-next-head="">AKASH K</title><meta name="robots" content="noindex, nofollow" data-next-head=""><meta content="Full Stack Developer &amp; AI Enthusiast
 
